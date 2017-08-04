@@ -1,0 +1,48 @@
+2017-07-28 08:53:09,152->INFO->info message
+2017-07-28 08:53:09,153->DEBUG->cost=300
+2017-07-28 08:53:09,156->WARNING->warning
+2017-07-28 08:53:09,156->ERROR->error
+2017-07-28 08:53:09,157->ERROR->exception
+None
+2017-07-28 08:58:12,552->DEBUG->a=12, b=6
+2017-07-28 08:58:12,554->DEBUG->result=2.0
+2017-07-28 08:58:32,174->DEBUG->a=12, b=0
+2017-07-28 08:58:32,174->ERROR->float division by zero
+Traceback (most recent call last):
+  File "app.py", line 11, in <module>
+    res=a/b
+ZeroDivisionError: float division by zero
+2017-07-28 08:58:53,826->DEBUG->a=12, b=wert
+2017-07-28 08:58:53,827->ERROR->could not convert string to float: wert
+Traceback (most recent call last):
+  File "app.py", line 10, in <module>
+    b=float(b)
+ValueError: could not convert string to float: wert
+2017-07-28 08:59:28,425->DEBUG->a=12, b=qweq
+2017-07-28 08:59:28,426->WARNING->Excpecting digits only but Got: 12, qweq
+2017-07-28 08:59:28,426->ERROR->could not convert string to float: qweq
+Traceback (most recent call last):
+  File "app.py", line 10, in <module>
+    b=float(b)
+ValueError: could not convert string to float: qweq
+2017-07-28 09:10:36,715->DEBUG->customer id: 1, customer name: name2
+2017-07-28 09:10:36,730->INFO->customer created successfully!
+2017-07-28 09:10:38,900->DEBUG->a=12, b=34
+2017-07-28 09:10:38,901->DEBUG->result=0.352941176471
+2017-07-28 09:10:40,683->DEBUG->customer id: 1, customer name: name2
+2017-07-28 09:10:40,696->INFO->customer created successfully!
+2017-07-28 09:10:42,455->DEBUG->a=12, b=rwerwe
+2017-07-28 09:10:42,456->WARNING->Excpecting digits only but Got: 12, rwerwe
+2017-07-28 09:10:42,456->ERROR->could not convert string to float: rwerwe
+Traceback (most recent call last):
+  File "app.py", line 12, in <module>
+    b=float(b)
+ValueError: could not convert string to float: rwerwe
+2017-07-28 09:10:51,166->DEBUG->customer id: 1, customer name: name2
+2017-07-28 09:10:51,177->INFO->customer created successfully!
+2017-07-28 09:10:54,427->DEBUG->a=12, b=0
+2017-07-28 09:10:54,430->ERROR->float division by zero
+Traceback (most recent call last):
+  File "app.py", line 13, in <module>
+    res=a/b
+ZeroDivisionError: float division by zero
